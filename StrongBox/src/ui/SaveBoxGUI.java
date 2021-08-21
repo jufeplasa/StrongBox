@@ -10,6 +10,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import model.Segurity;
 
@@ -115,6 +116,7 @@ public class SaveBoxGUI {
     		mainStage.show();
     	}
     	else {
+    		lbMessg.setTextFill(Color.TOMATO);
         	lbMessg.setText("La combinacion es incorrecta");
     	}
     }
