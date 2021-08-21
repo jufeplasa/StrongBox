@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightyellow;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="btnChange" layoutX="242.0" layoutY="265.0" mnemonicParsing="false" onAction="#switchToWindow2" prefHeight="42.0" prefWidth="116.0" style="-fx-border-color: black; -fx-background-color: lightblue;" text="Abrir" textFill="#868686">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtField1" layoutX="80.0" layoutY="169.0" prefHeight="63.0" prefWidth="63.0" />
+      <TextField fx:id="txtField2" layoutX="155.0" layoutY="169.0" prefHeight="63.0" prefWidth="63.0" />
+      <TextField fx:id="txtField3" layoutX="233.0" layoutY="169.0" prefHeight="63.0" prefWidth="63.0" />
+      <TextField fx:id="txtField4" layoutX="304.0" layoutY="169.0" prefHeight="63.0" prefWidth="63.0" />
+      <TextField fx:id="txtField5" layoutX="379.0" layoutY="169.0" prefHeight="63.0" prefWidth="63.0" />
+      <TextField fx:id="txtField6" layoutX="457.0" layoutY="169.0" prefHeight="63.0" prefWidth="63.0" />
+      <Label layoutX="167.0" layoutY="121.0" prefHeight="26.0" prefWidth="267.0" text="Escriba la combinacion para ingresar">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="155.0" layoutY="66.0" prefHeight="26.0" prefWidth="267.0" text="  CAJA FUERTE" textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Bodoni MT" size="31.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbMessg" layoutX="87.0" layoutY="342.0" prefHeight="26.0" prefWidth="403.0" text="Combinacion por defecto es : 123456" textFill="RED">
+         <font>
+            <Font name="CourierStd-Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
